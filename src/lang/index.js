@@ -1,13 +1,16 @@
 import {storage, httplink} from '@mikefeng110808/micro-util'
 import {commonFrame} from '../'
 
-const defaultLang = 'zh_TW'
+let defaultLang = 'zh_CN'
 
 let langPackage =  {
   lang: 'default',
   language: defaultLang,
   langs: {},
   modCode: 'visitorSdk',
+  setDefaultLang (lang) {
+    defaultLang = lang || defaultLang
+  },
   load (modCode = 'visitorSdk') {
     this.modCode = modCode
     this.loadLocal();

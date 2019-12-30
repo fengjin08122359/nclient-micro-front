@@ -8,13 +8,16 @@ var _microUtil = require('@mikefeng110808/micro-util');
 
 var _ = require('../');
 
-var defaultLang = 'zh_TW';
+var defaultLang = 'zh_CN';
 
 var langPackage = {
   lang: 'default',
   language: defaultLang,
   langs: {},
   modCode: 'visitorSdk',
+  setDefaultLang: function setDefaultLang(lang) {
+    defaultLang = lang || defaultLang;
+  },
   load: function load() {
     var modCode = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'visitorSdk';
 

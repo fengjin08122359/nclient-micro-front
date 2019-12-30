@@ -11,6 +11,7 @@ import {config,...} from 'nclient-microfront'
 1. load(modCode = 'visitorSdk') 加载需要调用的数据
 2. forceUpdate(type) 强制更新语言
 3. getAllMulLangs() 获取所有的语言类型
+4. setDefaultLang(lang) 设置默认语言 zh_CN, zh_TW, en
 ##screenCapture
 1. init() 初始化  
 2. use() 调用截图

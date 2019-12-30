@@ -1,10 +1,10 @@
 {
   "name": "nclient-microfront",
-  "version": "0.0.46",
+  "version": "0.0.53",
   "description": "",
   "main": "dist/index.js",
   "dependencies": {
-    "@mikefeng110808/micro-util": "0.0.26",
+    "@mikefeng110808/micro-util": "0.0.32",
     "l": "^0.6.0",
     "swfobject": "^2.2.1"
   },
@@ -15,7 +15,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src --out-dir dist",
-    "reset": "npm uninstall -g nclient-microfront && npm install -g nclient-microfront",
+    "reset": "npm uninstall -save nclient-microfront && npm install -save nclient-microfront",
     "reuse": "npm uninstall --save @mikefeng110808/micro-util && npm install --save @mikefeng110808/micro-util"
   },
   "author": "mike",
