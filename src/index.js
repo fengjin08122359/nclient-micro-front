@@ -22,10 +22,17 @@ import {
   rgHandle,
   websocketFrame,
   httpFrame,
-  changeTitle
+  changeTitle,
+  convertVuex,
+  SingleItem
 } from '@mikefeng110808/micro-util'
 import langPackage from './lang'
 import screenCapture from './screenCapture'
+import {
+  ItemList,
+  InputItem,
+  SelectItem
+} from './itemList'
 
 export const dataFrame = new EventBus('dataFrame')
 
@@ -60,4 +67,9 @@ export {
   displayData,
   rgData,
   rgHandle,
+  convertVuex,
+  ItemList,
+  SingleItem,
+  InputItem,
+  SelectItem
 }

@@ -1,10 +1,10 @@
 {
   "name": "nclient-microfront",
-  "version": "0.0.53",
+  "version": "0.0.58",
   "description": "",
   "main": "dist/index.js",
   "dependencies": {
-    "@mikefeng110808/micro-util": "0.0.32",
+    "@mikefeng110808/micro-util": "0.0.43",
     "l": "^0.6.0",
     "swfobject": "^2.2.1"
   },
